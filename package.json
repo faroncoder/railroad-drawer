@@ -20,7 +20,8 @@
   "author": "Faron Wheeler",
   "license": "MIT",
   "devDependencies": {
-    "terser": "^5.26.0"
+    "terser": "^5.26.0",
+    "webpack-cli": "^7.0.2"
   },
   "peerDependencies": {
     "railroad-runtime": "^1.0.0"
