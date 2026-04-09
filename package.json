@@ -1,0 +1,36 @@
+{
+  "name": "railroad-drawer",
+  "version": "1.0.0",
+  "description": "Slide-out drawer panels with governed server execution - Part of the Railroad ecosystem",
+  "main": "src/drawer.js",
+  "scripts": {
+    "build": "terser src/drawer.js -o dist/drawer.min.js -c -m --source-map",
+    "dev": "python examples/server.py",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "drawer",
+    "sidebar",
+    "panel",
+    "slide-out",
+    "railroad",
+    "governed-execution",
+    "htmx"
+  ],
+  "author": "Faron Wheeler",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.26.0"
+  },
+  "peerDependencies": {
+    "railroad-runtime": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faroncoder/railroad-drawer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/faroncoder/railroad-drawer/issues"
+  },
+  "homepage": "https://github.com/faroncoder/railroad-drawer#readme"
+}
